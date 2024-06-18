@@ -1,0 +1,35 @@
+/* Estrutura do site
+*/
+
+* {
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+    
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#container #logo {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    width: fit-content;
+    float: left;
+    margin-top: 16px;
+}
+
+#container #logo img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
