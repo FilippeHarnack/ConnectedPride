@@ -94,3 +94,42 @@ body{
 
 /*Configura layout de tres colunas
 */
+#conteudo {
+    margin-top: 60px;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background-color: #f5f5f5;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background-color: #f5f5f5;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background-color: #f5f5f5;
+}
+
+/*Rodape*/
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+   
+}
+
+#rodape {
+    width: 750px;
+    margin:0 auto;
+    color: #fff;
+}
