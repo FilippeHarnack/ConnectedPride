@@ -34,6 +34,18 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+/*Barra de navegacao*/
+
+body.home #navegacao a#home,
+body.politics #navegacao a#politics,
+body.well-being #navegacao a#well-being,
+body.events #navegacao a#events{
+
+}
+
+
+
 #menu {
     margin-top: 230px; /* Espaço entre o logo e o menu */
     display: flex;
@@ -98,10 +110,39 @@ body{
     margin-top: 60px;
 }
 
-#primario{
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background-color: #f5f5f5;
+}
+
+#tres-colunas #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
+    background-color: #f5f5f5;
+}
+
+ #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 0px;
+    background-color: #f5f5f5;
+}
+
+
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background-color: #f5f5f5;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0px;
     background-color: #f5f5f5;
 }
 
@@ -112,11 +153,30 @@ body{
     background-color: #f5f5f5;
 }
 
-#lateral{
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background-color: #f5f5f5;
+/*Caixa*/
+.caixa {
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png) ;
+
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+
+
+}
+
+.caixa-conteudo {
+    background: #fff ;
+    padding: 5px;
+    margin-top: 5px ;
+
+
+
 }
 
 /*Rodape*/
@@ -133,3 +193,4 @@ body{
     margin:0 auto;
     color: #fff;
 }
+
